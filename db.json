@@ -1,0 +1,22 @@
+{
+  "seller": [
+    {
+      "name": "Muhammad Zulkifal  ",
+      "password": "fsfsad",
+      "email": "smarwat@uetpeshwar.edu.pk",
+      "id": 1
+    },
+    {
+      "name": "Hamza",
+      "password": "abc123",
+      "email": "mzulkifaluetp@amalacademy.org",
+      "id": 2
+    },
+    {
+      "name": "Zohaib",
+      "password": "abc123",
+      "email": "zohaibsome@gmail.com",
+      "id": 3
+    }
+  ]
+}
