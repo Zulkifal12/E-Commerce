@@ -17,6 +17,12 @@
       "password": "abc123",
       "email": "zohaibsome@gmail.com",
       "id": 3
+    },
+    {
+      "name": "Shah Raza",
+      "password": "abc123",
+      "email": "shahsomething@yahoo.com",
+      "id": 4
     }
   ]
 }

@@ -27,7 +27,7 @@ export class SellerService {
   }
 
   userLogin(data:login){
-    this.http.get(`http://localhost:3000/seller?email= ${data.email}&password=${data.password}`,{observe: 'response'}).subscribe((result:any)=>{
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,{observe: 'response'}).subscribe((result:any)=>{
       console.warn(result)
       if(result && result.body && result.body.length){
         console.warn("User Logged in")
