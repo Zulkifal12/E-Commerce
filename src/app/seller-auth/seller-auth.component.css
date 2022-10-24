@@ -16,3 +16,8 @@
     text-align: left;
     cursor: pointer;
 }
+
+.error-p{
+    text-align: center;
+    color: red;
+}

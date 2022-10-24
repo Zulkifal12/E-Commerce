@@ -10,7 +10,7 @@ import { SignUP } from '../data-type';
 export class SellerAuthComponent implements OnInit {
 
   constructor(private seller:SellerService,private router:Router) { }
-
+  authError:string = '';
   showLogin = false;
   ngOnInit(): void {
     this.seller.reloadSeller();
@@ -20,7 +20,13 @@ export class SellerAuthComponent implements OnInit {
     this.seller.userSignup({ data })
   }
   login(data:SignUP):void{
-    this.seller.userLogin(data)
+    this.authError = ""
+    this.seller.userLogin(data);
+    this.seller.isLoginError.subscribe((isError)=>{
+      if(isError){
+        this.authError = "Invalid User Email or Password"
+      }
+    })
   }
 
   openLogin(){
