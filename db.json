@@ -23,6 +23,12 @@
       "password": "abc123",
       "email": "shahsomething@yahoo.com",
       "id": 4
+    },
+    {
+      "name": "Ahmazd Zohaib",
+      "password": "abc123",
+      "email": "zohaibsomebrother@gmail.com",
+      "id": 5
     }
   ]
 }
