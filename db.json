@@ -30,5 +30,43 @@
       "email": "zohaibsomebrother@gmail.com",
       "id": 5
     }
+  ],
+  "products": [
+    {
+      "product": "name",
+      "price": "name",
+      "color": "name",
+      "category": "name",
+      "description": "name",
+      "image": "name",
+      "id": 1
+    },
+    {
+      "product": "name",
+      "price": "czsc",
+      "color": "czxc",
+      "category": "zxcz",
+      "description": "fsadf",
+      "image": "fsdf",
+      "id": 2
+    },
+    {
+      "product": "name",
+      "price": "czsc",
+      "color": "czxc",
+      "category": "zxcz",
+      "description": "aaaa",
+      "image": "aaa",
+      "id": 3
+    },
+    {
+      "product": "name",
+      "price": "czsc",
+      "color": "czxc",
+      "category": "zxcz",
+      "description": "sss",
+      "image": "sss",
+      "id": 4
+    }
   ]
 }
