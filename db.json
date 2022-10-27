@@ -33,40 +33,31 @@
   ],
   "products": [
     {
-      "product": "name",
+      "name": "name",
       "price": "name",
       "color": "name",
       "category": "name",
       "description": "name",
-      "image": "name",
+      "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?cs=srgb&dl=pexels-mohi-syed-47261.jpg&fm=jpg",
       "id": 1
     },
     {
-      "product": "name",
-      "price": "czsc",
-      "color": "czxc",
-      "category": "zxcz",
-      "description": "fsadf",
-      "image": "fsdf",
+      "name": "Iphone",
+      "price": "100000PKR",
+      "color": "Black",
+      "category": "Mobile (Electronic Device)",
+      "description": "Iphone 11 Pro Max with charger and full box.",
+      "image": "https://images.pexels.com/photos/1042143/pexels-photo-1042143.jpeg?cs=srgb&dl=pexels-essow-1042143.jpg&fm=jpg",
       "id": 2
     },
     {
-      "product": "name",
-      "price": "czsc",
-      "color": "czxc",
-      "category": "zxcz",
-      "description": "aaaa",
-      "image": "aaa",
+      "name": "Dell Laptop",
+      "price": "20000PKR",
+      "color": "Black",
+      "category": "Electronic Device",
+      "description": "Dell Laptop with Complete Box and Charger.",
+      "image": "https://images.pexels.com/photos/1042143/pexels-photo-1042143.jpeg?cs=srgb&dl=pexels-essow-1042143.jpg&fm=jpg",
       "id": 3
-    },
-    {
-      "product": "name",
-      "price": "czsc",
-      "color": "czxc",
-      "category": "zxcz",
-      "description": "sss",
-      "image": "sss",
-      "id": 4
     }
   ]
 }
