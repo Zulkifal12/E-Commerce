@@ -33,31 +33,13 @@
   ],
   "products": [
     {
-      "name": "name",
-      "price": "name",
-      "color": "name",
-      "category": "name",
-      "description": "name",
-      "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?cs=srgb&dl=pexels-mohi-syed-47261.jpg&fm=jpg",
-      "id": 1
-    },
-    {
-      "name": "Iphone",
-      "price": "100000PKR",
+      "name": "Samsung A70",
+      "price": "70000",
       "color": "Black",
       "category": "Mobile (Electronic Device)",
-      "description": "Iphone 11 Pro Max with charger and full box.",
-      "image": "https://images.pexels.com/photos/1042143/pexels-photo-1042143.jpeg?cs=srgb&dl=pexels-essow-1042143.jpg&fm=jpg",
-      "id": 2
-    },
-    {
-      "name": "Dell Laptop",
-      "price": "20000PKR",
-      "color": "Black",
-      "category": "Electronic Device",
-      "description": "Dell Laptop with Complete Box and Charger.",
-      "image": "https://images.pexels.com/photos/1042143/pexels-photo-1042143.jpeg?cs=srgb&dl=pexels-essow-1042143.jpg&fm=jpg",
-      "id": 3
+      "description": "With Box.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-vs-Galaxy-S22-Plus-camera-module-crisscross.jpeg",
+      "id": 4
     }
   ]
 }

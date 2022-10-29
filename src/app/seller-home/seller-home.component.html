@@ -1,5 +1,8 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="product-list">
     <h1>All Product List</h1>
+    <p class="del_message">{{deleteMessage}}</p>
     <table>
         <thead>
             <tr>
@@ -9,6 +12,7 @@
                 <th>Color</th>
                 <th>Category</th>
                 <th>Description</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +23,7 @@
                 <td>{{item.color}}</td>
                 <td>{{item.category}}</td>
                 <td>{{item.description}}</td>
+                <td><button class="btn del_button" (click)= "deleteProduct(item.id)"><i class="fa fa-trash"></i> Trash</button></td>
 
             </tr>
         </tbody>

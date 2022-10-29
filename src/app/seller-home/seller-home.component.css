@@ -13,3 +13,13 @@ img{
     width: 80px;
     height: 60px;
 }
+
+.del_button:hover{
+    background-color: blueviolet;
+    color: white;
+    border-color: blueviolet;
+    border-radius: 6px;
+}
+.del_message{
+    color: red;
+}
