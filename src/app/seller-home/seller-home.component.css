@@ -15,9 +15,9 @@ img{
 }
 
 .del_button:hover{
-    background-color: blueviolet;
+    background-color: red;
     color: white;
-    border-color: blueviolet;
+    border-color: red;
     border-radius: 6px;
 }
 .del_message{
