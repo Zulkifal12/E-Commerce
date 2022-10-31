@@ -1,5 +1,4 @@
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="product-list">
     <h1>All Product List</h1>
     <p class="del_message">{{deleteMessage}}</p>
@@ -23,7 +22,11 @@
                 <td>{{item.color}}</td>
                 <td>{{item.category}}</td>
                 <td>{{item.description}}</td>
-                <td><button class="btn del_button" (click)= "deleteProduct(item.id)"><i class="fa fa-trash"></i> Trash</button></td>
+                <td>
+                    <p class="update_link"><fa-icon  (click)= "deleteProduct(item.id)" [icon]= "Trash_icon"></fa-icon></p>
+                   <a class="adjust_update_link" routerLink="/seller-update-product"><fa-icon [icon]= "edit"></fa-icon></a> 
+                </td>
+
                  
             </tr>
         </tbody>

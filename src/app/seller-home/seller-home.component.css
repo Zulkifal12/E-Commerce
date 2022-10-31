@@ -14,12 +14,25 @@ img{
     height: 60px;
 }
 
-.del_button:hover{
-    background-color: red;
-    color: white;
-    border-color: red;
-    border-radius: 6px;
-}
+
 .del_message{
     color: red;
+}
+.update_link{
+    display: inline;
+}
+
+.update_link:hover{
+   color: red;
+   cursor: pointer;
+}
+
+.adjust_update_link{
+    margin-left: 1px;
+    color: blueviolet;
+     margin-left: 14px;
+}
+
+.adjust_update_link:hover{
+    color: green;
 }
