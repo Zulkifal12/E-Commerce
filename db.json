@@ -33,13 +33,13 @@
   ],
   "products": [
     {
-      "name": "Muhammad Zulkifal  ",
-      "price": "czsc",
+      "name": "Samsung A70",
+      "price": "70000",
       "color": "Black",
       "category": "Mobile (Electronic Device)",
-      "description": "gdg",
-      "image": "gsdfgd",
-      "id": 1
+      "description": "With Full Box.",
+      "image": "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2020/05/S22_Ultra_Banner_3000x2000-scaled.jpg?fit=2560%2C1707&ssl=1",
+      "id": 2
     }
   ]
 }

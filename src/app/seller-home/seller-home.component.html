@@ -24,7 +24,7 @@
                 <td>{{item.description}}</td>
                 <td>
                     <p class="update_link"><fa-icon  (click)= "deleteProduct(item.id)" [icon]= "Trash_icon"></fa-icon></p>
-                   <a class="adjust_update_link" routerLink="/seller-update-product"><fa-icon [icon]= "edit"></fa-icon></a> 
+                   <a class="adjust_update_link" routerLink="/seller-update-product/{{item.id}}"><fa-icon [icon]= "edit"></fa-icon></a> 
                 </td>
 
                  

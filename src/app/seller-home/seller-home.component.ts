@@ -33,7 +33,6 @@ export class SellerHomeComponent implements OnInit {
 
   list() {
     this.product.productlist().subscribe((result) => {
-      console.warn(result);
       this.productlist = result;
     });
   }
