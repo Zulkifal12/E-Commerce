@@ -1,0 +1,14 @@
+.product-header-img{
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+}
+
+.carosel{
+    margin-top: 150px;
+}
+
+.carousel-caption{
+    background-color: rgb(54, 59, 59);
+    opacity: 50%;
+}
